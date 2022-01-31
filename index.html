@@ -6,43 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-<header><nav>
-        <a href="">WebStudio</a>
-        <ul>
-        <li> <a href="">Студия</a></li>
-        <li><a href="">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
+<body class="body">
+    <!-- Шапка -->
+<header  >
+    <nav>
+        <a class="logo" href=""> <span class="logo-left" >Web</span> Studio</a>
+        <ul class="list nav-links" >
+        <li ><a class="nav-links" href="">Студия</a></li>
+        <li ><a class="nav-links" href="./portfolio.html">Портфолио</a></li>
+        <li ><a class="nav-links" href="">Контакты</a></li>
        </ul>
        </nav>
-          <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-         </ul>
+          <ul class="list nav-links">
+          <li><a class="nav-links" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li><a class="nav-links" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+           </ul>
        </header>
+      <!-- Герой -->
+      
        <main>
+       <!-- Секция заказать услугу-->
 
-       
-           <section>
-               <h1>Эффективные решения<br>для вашего бизнеса</h1>
-               <button>Заказать услугу</button> 
+           <section class="section-service">
+               <h1 class="section-service">Эффективные решения<br>для вашего бизнеса</h1>
+               <button class="section-service-title" >Заказать услугу</button> 
            </section>
-    
-    <section>
-        <h2 hidden>Характеристики</h2>
-        <ul>
+    <!-- Секция характеристики -->
+    <section class="section">
+        <h2 hidden >Характеристики</h2>
+        <ul class="section-title-charactery">
             <li><h3>Внимание к деталям</h3><p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p></li>
             <li><h3>Пунктуальность</h3><p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p> </li>
             <li><h3>Планирование</h3><p>Равным образом консультация с широким активом в значительной степени обуславливает.</p></li>
             <li><h3>Современные технологии</h3><p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p></li>
             
         </ul>
-    </section>
-    <section>
-        <h2>Чем мы занимаемся</h2>
+    </section >
+      <!-- Секция чем мы занимаемся  -->
+    <section class="section">
+        <h2 class="sectoin-title">Чем мы занимаемся</h2>
         <ul>
             <li><a href=""><img src="./imag/box1.jpg" alt="комп" width="370">
             </a></li>
@@ -52,11 +58,11 @@
             </a></li>
              </ul>
   </section>
-
-<section>
-    <h2>Наша команда</h2>
+<!-- Секция Наша команда  -->
+<section class="section-user">
+    <h2 class="sectoin-title"> Наша команда</h2>
     <ul>
-        <li><a href=""><img src="./imag/teamcard1.jpg" alt="" width="270">
+        <li><a href=""><img src="./imag/" alt="" width="270">
             </a><h3>Игорь Демьяненко</h3>
             <p><span lang="en">Product Designer</span></p>
         </li>
@@ -75,20 +81,19 @@
                         </a><h3>Михаил Ермаков</h3>
                         <p><span lang="en">UI Designer</span></p>
                     </li>
-
-        
     </ul>
 
 </section>
 </main>
+
 
 <footer>
     <a href="">WebStudio</a>
     <address>
         <ul>
             <li>г. Киев, пр-т Леси Украинки, 26</li>
-            <li><a href="">info@example.com</a></li>
-            <li><a href="">+380991111111</a></li>
+            <li><a href="info@example.com">info@example.com</a></li>
+            <li><a href="+380991111111">+380991111111</a></li>
         </ul>
     </address>
 
