@@ -1,0 +1,75 @@
+:root {
+  --primery-text-color: #212121;
+  --title-text-color: #757575;
+  --acent-color: #2196f3;
+}
+
+.body {
+  background: #e5e5e5;
+  color: #212121;
+  color: var(--primery-text-color);
+}
+/* Цвет основного текста #212121 */
+/* Вторичный цвет текста #757575 */
+/* Акцент #2196F3 */
+/* Белй цвет  #FFFFFF */
+
+/* Логотип */
+.logo {
+  color: #000000;
+  color: var(--title-text-color);
+}
+.logo-left {
+  color: #2196f3;
+}
+.list {
+  list-style: none;
+}
+
+/* Шапка */
+.nav-links {
+  color: #212121;
+  background-color: #ffffff;
+}
+.nav-links :hover,
+.nav-links :focus {
+  color: #2196f3;
+  color: var(--acent-color);
+}
+/* Секции */
+/* Секция заказать услугу */
+.section-service {
+  color: #ffffff;
+  background: #2f303a;
+}
+.section-service-title {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* Секция характеристики */
+.section-charactery {
+  color: #e5e5e5;
+}
+
+.section-title-charactery {
+  color: #212121;
+}
+/* Секция чем мы занимаемся  */
+.section-activity {
+  color: #e5e5e5;
+}
+
+.sectoin-title-activity {
+  color: #212121;
+}
+/* секция Наша команда  */
+.section-user {
+  background-color: #f5f4fa;
+}
+
+.section-user-title {
+  color: #212121;
+}
+/* Кнопки */
+.button {
+}
